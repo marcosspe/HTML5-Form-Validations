@@ -68,14 +68,6 @@ function validation() {
     alert.style.display = "none";
   }
 
-  //if (cvcNumber.value.length == 0) {
-  //alert.style.display = "block";
-  //cvcNumber.style.backgroundColor = "#f8d7da";
-  //} else {
-  //alert.style.display = "none";
-  //cvcNumber.style.backgroundColor = "#fff";
-  //}
-
   if (amountValue == "") {
     amountMsg.style.display = "flex";
     amountMsg.innerHTML = "Por favor, complete este campo";
